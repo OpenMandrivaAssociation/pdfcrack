@@ -1,7 +1,7 @@
 Summary:	A Password Recovery Tool for PDF-files
 Name:		pdfcrack
 Version:	0.11
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPL
 Group:		File tools
 URL:		http://pdfcrack.sourceforge.net/
