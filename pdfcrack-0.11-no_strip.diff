@@ -1,0 +1,14 @@
+--- Makefile	2008-04-30 23:14:58.000000000 +0200
++++ Makefile.oden	2010-04-19 13:49:53.397355446 +0200
+@@ -7,11 +7,9 @@
+ pdfcrack: main.o rc4.o md5.o pdfcrack.o pdfparser.o passwords.o common.o \
+ 	benchmark.o
+ 	gcc $(CFLAGS) -o $@ $+
+-	strip $@
+ 
+ pdfreader: pdfparser.o pdfreader.o common.o
+ 	gcc $(CFLAGS) -o $@ $+
+-	strip $@
+ 
+ clean:
+ 	rm -f pdfcrack pdfreader testreader *.o
