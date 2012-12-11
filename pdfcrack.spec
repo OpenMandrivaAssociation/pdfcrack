@@ -34,3 +34,17 @@ rm -rf %{buildroot}
 %doc README TODO changelog
 %{_bindir}/pdfcrack
 
+
+
+%changelog
+* Tue Dec 07 2010 Oden Eriksson <oeriksson@mandriva.com> 0.11-2mdv2011.0
++ Revision: 614489
+- the mass rebuild of 2010.1 packages
+
+* Mon Apr 19 2010 Oden Eriksson <oeriksson@mandriva.com> 0.11-1mdv2010.1
++ Revision: 536728
+- import pdfcrack
+
+
+* Mon Apr 19 2010 Oden Eriksson <oeriksson@mandriva.com> 0.11-1mdv2010.1
+- initial Mandriva package
