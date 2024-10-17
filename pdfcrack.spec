@@ -4,7 +4,7 @@ Version:	0.11
 Release:	3
 License:	GPL
 Group:		File tools
-URL:		http://pdfcrack.sourceforge.net/
+URL:		https://pdfcrack.sourceforge.net/
 Source0:	http://mesh.dl.sourceforge.net/project/pdfcrack/pdfcrack/%{name}-%{version}/%{name}-%{version}.tar.gz
 Patch0:		pdfcrack-0.11-no_strip.diff
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
