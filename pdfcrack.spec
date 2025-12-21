@@ -9,6 +9,7 @@ Source0:	http://mesh.dl.sourceforge.net/project/pdfcrack/pdfcrack/%{name}-%{vers
 Patch0:		pdfcrack-0.11-no_strip.diff
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
+BuildRequires:	make
 %description
 PDFCrack is a tool for recovering passwords and content from PDF-files.
 
